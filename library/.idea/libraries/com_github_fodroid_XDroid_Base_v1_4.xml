@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.github.fodroid:XDroid-Base-v1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/XDroid-Base-v1.4.aar/d275bd842856596d7bfb85fe86f83422/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/XDroid-Base-v1.4.aar/d275bd842856596d7bfb85fe86f83422/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

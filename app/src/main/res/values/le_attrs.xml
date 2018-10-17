@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LeGlowDelegate -->
+    <declare-styleable name="LeGlowDelegate">
+        <attr name="leGlowEnabledAnim" format="boolean" />
+        <attr name="leGlowPressColor" format="integer" />
+        <attr name="leGlowPressScaleMultiple" format="float" />
+        <attr name="leGlowPressScaleAlpha" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="LeTabWidget">
+        <attr name="topStrip" format="reference" />
+        <attr name="topStripHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimeWheel">
+        <attr name="leNoYearWheel" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="LeFlowLayout">
+        <attr name="leHorizontalSpacing" format="dimension" />
+        <attr name="leVerticalSpacing" format="dimension" />
+        <attr name="leOrientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="leMaxLineNum" format="integer" />
+        <attr name="leDebugDraw" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LeFlowLayout_LayoutParams">
+        <attr name="layout_leNewLine" format="boolean" />
+        <attr name="layout_leHorizontalSpacing" format="dimension" />
+        <attr name="layout_leVerticalSpacing" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

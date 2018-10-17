@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_realtabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <com.eui.ebalance.widget.LeFragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false">
+
+        <com.eui.ebalance.widget.LeTabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="200dip"
+            android:orientation="horizontal"
+            app:topStrip="@color/le_bottom_widget_top_strip_color"
+            app:topStripHeight="@dimen/le_bottom_tab_top_strip_height" />
+    </com.eui.ebalance.widget.LeFragmentTabHost>
+
+</LinearLayout>

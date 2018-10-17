@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eui.ebalance.HomeTendencyFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/home_tendency_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="近一周"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/home_tendency_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="近一月"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/home_tendency_3_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="近90天"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/home_tendency_enter_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_launcher_round" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="呈时间区间显示"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_launcher_round" />
+    </RelativeLayout>
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/home_tendency_lineCharView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_weight="1"
+        android:paddingTop="20dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_tendency_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

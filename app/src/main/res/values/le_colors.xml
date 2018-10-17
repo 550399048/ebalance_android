@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--跟colorPrimary_red 一个颜色-->
+    <color name="le_bottom_widget_title_textcolor">#f2544c</color>
+
+    <color name="le_bottom_widget_top_strip_color">#ffa6a7ae</color>
+
+
+    <color name="le_color_wheel_picker_center">#ff2395ee</color>
+    <color name="le_color_wheel_picker_normal">#FFbcbcbc</color>
+
+    <color name="list_divider_color">#c6c7cb</color>
+
+    <!--默认正文文字颜色，比较黑，带一点点灰-->
+    <color name="default_text_color">#54555C</color>
+
+
+    <color name="white">#ffffff</color>
+
+</resources>
